@@ -14,7 +14,7 @@ interface CustomInputProps {
   placeholder: string
 }
 
-const CustomeInput = ({ control, name, label, placeholder }: CustomInputProps) => {
+const CustomInput = ({ control, name, label, placeholder }: CustomInputProps) => {
   return (
     <FormField
       control={control}
@@ -39,4 +39,4 @@ const CustomeInput = ({ control, name, label, placeholder }: CustomInputProps) =
   )
 }
 
-export default CustomeInput
+export default CustomInput
